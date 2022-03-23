@@ -2,12 +2,14 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import SelectMenu from "../Components/SelectMenu";
-import Button from "../Components/Button";
+import { B2, b2SizeEnum } from "../Components/b2";
 
 const Home: NextPage = () => {
   return (
     <>
-      <Button />
+      <B2 size={b2SizeEnum.L} />
+      <B2 size={b2SizeEnum.M} />
+      <B2 size={b2SizeEnum.S} />
     </>
   );
 };
