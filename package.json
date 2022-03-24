@@ -21,6 +21,7 @@
     "@next/plugin-storybook": "^12.1.0",
     "@storybook/testing-react": "^1.2.4",
     "classnames": "^2.3.1",
+    "cypress-react-unit-test": "^4.17.2",
     "next": "12.1.0",
     "postcss-cli": "^9.1.0",
     "react": "17.0.2",

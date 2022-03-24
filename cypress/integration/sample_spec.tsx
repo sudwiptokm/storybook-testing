@@ -3,10 +3,10 @@ import * as React from "react";
 import { mount } from "@cypress/react";
 // import "../../styles/globals.css";
 // import * as stories from "../../Components/Button.stories";
-import { ButtonFromCore } from "../../Components/ButtonFromCore";
+import { Button } from "../../Components/Button";
 
 describe("Hey there", () => {
   it("works", () => {
-    mount(<ButtonFromCore text="click" OnClick={() => {}} />);
+    mount(<Button />);
   });
 });
