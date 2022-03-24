@@ -1,10 +1,10 @@
 import * as React from "react";
 import { ButtonProps, ButtonType } from "../interfaces";
 
-const ButtonFromCore = ({
+export const ButtonFromCore = ({
   type = ButtonType.button,
   icon,
-  text,
+  text = "Click",
   OnClick,
 }: ButtonProps) => (
   <button
@@ -17,4 +17,4 @@ const ButtonFromCore = ({
   </button>
 );
 
-export default ButtonFromCore;
+// export default ButtonFromCore;
