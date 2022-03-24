@@ -17,7 +17,7 @@ export default {
     },
     label: {
       name: "Label",
-      defaultValue: "Enter Button Label",
+      defaultValue: "Button",
       control: { type: "text" },
     },
   },

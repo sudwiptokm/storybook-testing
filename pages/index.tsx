@@ -3,13 +3,13 @@ import Head from "next/head";
 import Image from "next/image";
 import SelectMenu from "../Components/SelectMenu";
 import { B2, b2SizeEnum } from "../Components/b2";
+import Input from "../Components/SimpleInput";
+import Checkboxes from "../Components/Checkboxes";
 
 const Home: NextPage = () => {
   return (
     <>
-      <B2 size={b2SizeEnum.L} />
-      <B2 size={b2SizeEnum.M} />
-      <B2 size={b2SizeEnum.S} />
+      <Checkboxes name="test" id="test" label="test" description="test" />
     </>
   );
 };

@@ -29,14 +29,30 @@ export const B2: React.FC<b2Props> = ({
   // let padding = "px-5 py-3";
   // if (size === b2SizeEnum.S) padding = "px-3 py-2";
   // if (size === b2SizeEnum.L) padding = "px-6 py-3";
+  let testing =
+    "inline-flex items-center justify-center border border-transparent text-base leading-6 font-medium rounded-md focus:outline-none focus:shadow-outline transition duration-150 ease-in-out";
 
   return (
     <div>
-      <button
+      {/* <button
         type={type}
         className={cn({
           "inline-flex items-center justify-center border border-transparent text-base leading-6 font-medium rounded-md focus:outline-none focus:shadow-outline transition duration-150 ease-in-out":
             true,
+          "px-6 py-3": size === b2SizeEnum.L,
+          "px-3 py-2": size === b2SizeEnum.S,
+          "px-4 py-3": size === b2SizeEnum.M,
+          "text-white bg-indigo-600 hover:bg-indigo-500": !isAlternative,
+          "text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:border-indigo-300":
+            isAlternative,
+        })}
+      >
+        {label}
+      </button> */}
+      <button
+        type={type}
+        className={cn({
+          [`${testing}`]: true,
           "px-6 py-3": size === b2SizeEnum.L,
           "px-3 py-2": size === b2SizeEnum.S,
           "px-4 py-3": size === b2SizeEnum.M,
