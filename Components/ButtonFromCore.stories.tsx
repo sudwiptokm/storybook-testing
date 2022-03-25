@@ -1,4 +1,4 @@
-import ButtonFromCore from "./ButtonFromCore";
+import { ButtonFromCore } from "./ButtonFromCore";
 import { ButtonType, ButtonProps } from "../interfaces";
 
 import type { Story, Meta } from "@storybook/react/types-6-0";
