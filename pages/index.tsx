@@ -9,6 +9,7 @@ import Checkboxes from "../Components/Checkboxes";
 const Home: NextPage = () => {
   return (
     <>
+      <p>Hi there</p>
       <Checkboxes name="test" id="test" label="test" description="test" />
     </>
   );

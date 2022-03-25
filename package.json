@@ -10,7 +10,8 @@
     "tailwind-storybook-build": "NODE_ENV=production postcss ./styles/tailwind.css -o ./storybook-static/storybook/tailwind.storybook.css",
     "storybook": "npm run tailwind-storybook && start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook && npm run tailwind-storybook-build",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:ct": "cypress open-ct"
   },
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
