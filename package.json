@@ -11,7 +11,8 @@
     "storybook": "npm run tailwind-storybook && start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook && npm run tailwind-storybook-build",
     "cypress:open": "cypress open",
-    "cypress:ct": "cypress open-ct"
+    "cypress:ct": "cypress open-ct",
+    "percy:cypress": "percy exec -- cypress run"
   },
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
@@ -32,6 +33,8 @@
     "@babel/core": "^7.17.8",
     "@cypress/react": "^5.12.4",
     "@cypress/webpack-dev-server": "^1.8.3",
+    "@percy/cli": "^1.0.0-beta.76",
+    "@percy/cypress": "^3.1.1",
     "@storybook/addon-actions": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",

@@ -4,6 +4,6 @@
   "compilerOptions": {
     "baseUrl": ".",
     "jsx": "react",
-    "types": ["cypress"]
+    "types": ["cypress", "@percy/cypress"]
   }
 }

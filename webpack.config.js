@@ -5,4 +5,7 @@ module.exports = {
   module: {
     rules: [],
   },
+  node: {
+    console: true,
+  },
 };
