@@ -5,5 +5,5 @@ import "tailwindcss/tailwind.css";
 
 it("Renders page component", () => {
   mount(<Home />);
-  cy.contains("Hi there.");
+  cy.contains("Hi there");
 });
