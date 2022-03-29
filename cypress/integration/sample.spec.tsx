@@ -8,7 +8,7 @@ import { Button } from "../../Components/Button";
 
 describe("Hey there", () => {
   it("works", () => {
-    cy.visit("http://localhost:3000/");
+    cy.visit("https://www.youtube.com/");
     // cy.percySnapshot();
   });
 });
