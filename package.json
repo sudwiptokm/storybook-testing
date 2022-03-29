@@ -12,7 +12,8 @@
     "build-storybook": "build-storybook && npm run tailwind-storybook-build",
     "cypress:open": "cypress open",
     "cypress:ct": "cypress open-ct",
-    "percy:cypress": "percy exec -- cypress run"
+    "percy:cypress": "percy exec -- cypress run",
+    "chromatic": "npx chromatic --project-token=ee70cf3d7ef3"
   },
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
@@ -45,6 +46,7 @@
     "@types/react": "17.0.41",
     "autoprefixer": "^10.4.4",
     "babel-loader": "^8.2.3",
+    "chromatic": "^6.5.3",
     "cypress": "^9.5.2",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
