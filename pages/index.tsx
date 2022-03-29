@@ -14,7 +14,7 @@ const pages = [
 const Home: NextPage = () => {
   return (
     <>
-      <p className="bg-blue-700 text-white">Hi there</p>
+      <p className="bg-blue-700 text-white">Hi there man!!</p>
       <Checkboxes name="test" id="test" label="test" description="test" />
       <BreadCrumbs items={pages} />
     </>
