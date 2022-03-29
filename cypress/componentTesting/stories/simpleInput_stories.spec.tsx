@@ -1,7 +1,7 @@
 import * as React from "react";
 import { composeStories } from "@storybook/testing-react";
 import { mount } from "@cypress/react";
-import * as stories from "../../Components/SimpleInput.stories";
+import * as stories from "../../../Components/SimpleInput.stories";
 import "tailwindcss/tailwind.css";
 
 // compile the "Primary" story with the library
